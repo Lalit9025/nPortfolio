@@ -6,15 +6,16 @@ export const ProjectBox = (props) => {
   const getIconSize = () => {
     const windowWidth = window.innerWidth;
 
-    if (windowWidth <= 576) {
+    if (windowWidth > 550 && windowWidth <= 576) {
       // Small devices
-      return 0;
-    } else if (windowWidth <= 992) {
-      // Medium devices
-      return 8;
-    } else {
-      // Large devices
       return 10;
+    }
+    else if (windowWidth <= 900){
+      // Medium devices
+      return 12;
+    }else {
+      // Large devices
+      return 16;
     }
   };
 
