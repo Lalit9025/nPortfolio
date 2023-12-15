@@ -19,7 +19,7 @@ return(
             des='Developed a URL shortener application using the MERN (MongoDB, Express.js, React.js, Node.js) Stack, focusing on creating a robust and efficient system for managing shortened URLs.'
             tech=' HTML, CSS, Javascript'
             link1 ={'https://url-shortner-cls3.onrender.com/'}
-            link2={'https://github.com/Lalit9025/eShop'}/>
+            link2={'https://github.com/Lalit9025/urlshortner'}/>
             
 
             <ProjectBox 
@@ -37,7 +37,7 @@ return(
             des='Developed and deployed a modern e-commerce site using React. Implemented critical features like eShop Header, Basket functionality,and Firebase authentication'
             tech=' HTML, CSS, Javascript'
             link1 ={'https://eshop-fb048.web.app/'}
-            link2={'https://github.com/Lalit9025/acm'}/>
+            link2={'https://github.com/Lalit9025/eShop'}/>
             
         </div> 
     </div>
