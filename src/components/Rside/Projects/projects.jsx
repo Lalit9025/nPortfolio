@@ -19,7 +19,7 @@ return(
             des='Developed a URL shortener application using the MERN (MongoDB, Express.js, React.js, Node.js) Stack, focusing on creating a robust and efficient system for managing shortened URLs.'
             tech=' HTML, CSS, Javascript'
             link1 ={'https://url-shortner-cls3.onrender.com/'}
-            link2={'https://github.com/Lalit9025/acm'}/>
+            link2={'https://github.com/Lalit9025/eShop'}/>
             
 
             <ProjectBox 
@@ -27,8 +27,8 @@ return(
             heading='Solo Web' 
             des='Developed a responsive portfolio website with HTML, CSS, JavaScript, and React. Implemented a user-friendly one-page design showcasing my expertise with clear and concise content.'
             tech=' HTML, CSS, Javascript'
-            link1 ={'https://url-shortner-cls3.onrender.com/'}
-            link2={'https://github.com/Lalit9025/acm'}/>
+            link1 ={'https://solo-web-d274a.web.app/'}
+            link2={'https://github.com/Lalit9025/solo-web'}/>
 
 
 <ProjectBox 
@@ -36,7 +36,7 @@ return(
             heading='Ecommerce Web App' 
             des='Developed and deployed a modern e-commerce site using React. Implemented critical features like eShop Header, Basket functionality,and Firebase authentication'
             tech=' HTML, CSS, Javascript'
-            link1 ={'https://url-shortner-cls3.onrender.com/'}
+            link1 ={'https://eshop-fb048.web.app/'}
             link2={'https://github.com/Lalit9025/acm'}/>
             
         </div> 

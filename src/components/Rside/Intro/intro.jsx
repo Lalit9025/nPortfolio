@@ -45,7 +45,7 @@ const Intro =() =>{
                 <span className="i-1">Full Stack Developer</span>
                 <div className="intro_btn" >
                         <a className='hireme'href="mailto:lalit3chouhan@gmail.com.com">Hire Me !</a>
-                        <a className='hireme'href="https://drive.google.com/file/d/1HxD6tVK18bIPzFwWy1CXFUzKQyfeSKrm/view?usp=sharing">View Resume</a>
+                        <a className='hireme'href="https://drive.google.com/file/d/1vYYcWZ_aYxPQiS3OUm8-GzHFow1-XNUz/view?usp=sharing">View Resume</a>
                     
                 
                 </div>
