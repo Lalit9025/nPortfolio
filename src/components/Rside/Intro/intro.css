@@ -56,11 +56,6 @@ line-height: 70px; /* 120.69% */
   cursor: pointer;
   text-decoration: none;
 }
-.hireme:hover{
-    height: 3.2rem;
-    width: 9.3rem;
-    font-size: 18.5px;
-}
 .social_icon{
     display: flex;
     width: 8rem;
