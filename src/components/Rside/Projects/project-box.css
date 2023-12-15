@@ -91,8 +91,12 @@ margin-top: 10px;
     }
 }
 @media screen and (min-width:700px) and (max-width:1100px) {
+    .pbox-body{
+        width: 23vw;
+    }
     .pimg{
-    height: 30vh;
+        width: 23vw;
+        height: 8rem;
     }
     .des_bx{
         padding: 0px 15px;
@@ -145,37 +149,37 @@ margin-top: 10px;
 }
 @media screen and  (max-width:550px){
     .pbox-body{
-        width: 50vw;
+        width: 20rem;
+        height: 12rem;
         align-items: center;
         background-color: #363636; 
         margin: 20px 10px;
-        border-radius: 20px;    
+        border-radius: 0px;    
     }
     .pimg{
-        width: 50vw;
-        height: 15vh;
-
+        display: none;
     }
     .des_bx{
         padding: 0px 20px;
     }
     .pr-heading{
-        font-size: 15px;
-        margin: 5px 0px;
+        font-size: 25px;
+        margin-top: 30px;
+        font-weight: bold;
     }
     .pr-des{
-        font-size: 8px;
-    line-height: 10px;  
+        display: none;
     }
     .pr-tech{
-        font-size: 9px;
-    margin-top: 5px;
+        font-size: 15px;
+    margin: 10px 0px;
     line-height: 12px;
     }
     .pbtn{
        
-        margin-top: 0px;
+        margin: 20px 10px;
         padding: 0px 0px;
+        text-decoration-line: none;
     }
     .pbtn-prop{
         font-size: 9px;
@@ -183,5 +187,13 @@ margin-top: 10px;
     }
     .pbtn_p_icon{  
         margin-right: 3px;
+        display: none;
+    }
+    .WG{
+        padding: 3px 7px;
+        background-color: #28e98c;
+    color: var(--Button-text, black);
+    border-radius: 0.3rem;
+    font-size: 12px;
     }
 }

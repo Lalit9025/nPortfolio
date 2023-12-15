@@ -8,7 +8,7 @@ export const ProjectBox = (props) => {
 
     if (windowWidth <= 576) {
       // Small devices
-      return 8;
+      return 0;
     } else if (windowWidth <= 992) {
       // Medium devices
       return 8;
@@ -42,14 +42,14 @@ export const ProjectBox = (props) => {
         <div className="pr-des">{props.des}</div>
         <div className="pr-tech">Tech Stack: {props.tech}</div>
         <div className="pbtn">
-          <a className="pbtn-prop" href={props.link1} style={{ textDecoration: 'none' }}>
+          <a className="pbtn-prop" href={props.link1} style={{textDecoration:'none'}}>
             <FaLink className="pbtn_p_icon" size={iconSize} />
-            <p>Live Preview</p>
+            <p className="WG">Live Preview</p>
           </a>
 
           <a className="pbtn-prop" href={props.link2} style={{ textDecoration: 'none' }}>
             <FaGithub className="pbtn_p_icon" size={iconSize} />
-            <p>View Code</p>
+            <p className="WG">View Code</p>
           </a>
         </div>
       </div>

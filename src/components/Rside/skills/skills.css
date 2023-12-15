@@ -6,12 +6,6 @@
     
 }
 
-@media screen and (max-width:700px) {
-    
-}
-@media  screen and (min-width: 701px) and (max-width: 1350px){
-
-}
 .w-dev{
     display: flex;
     margin:30px 0px;
@@ -30,6 +24,9 @@
     .w-dev{
         flex-direction: column;
         padding: 0px 20px;
+    }
+    .icons-arr{
+        margin: 20px 0px;
     }
     
 }

@@ -96,6 +96,10 @@ padding-bottom: 5rem;
         }
 }
 @media  screen and (min-width: 950px) and (max-width: 1150px){
+    .main_intro{
+        height: auto;
+        margin-top: 10rem;
+    }
     .intro_img{
         padding-right: 2rem;
         }
@@ -123,6 +127,10 @@ padding-bottom: 5rem;
     
 }
 @media  screen and (min-width: 730px) and (max-width: 950px){
+    .main_intro{
+        height: auto;
+        margin-top: 8rem;
+    }
     .intro_img{
         padding-right: 1rem;
         }
@@ -149,9 +157,10 @@ padding-bottom: 5rem;
         margin-top: 40px;
     }
 }
-@media  screen and (min-width: 590px) and (max-width: 730px){
+@media  screen and (min-width: 550px) and (max-width: 730px){
     .main_intro{
         height: auto;
+        margin-top: 8rem;
     }
     .intro_img{
         padding-right: 1rem;
@@ -182,75 +191,10 @@ padding-bottom: 5rem;
         margin-top: 20px;
     }
 }
-@media  screen and (min-width: 520px) and (max-width: 590px){
+
+@media  screen and (max-width: 550px){
     .main_intro{
-        height: 60vh;
-    }
-    .intro_img{
-        padding-right: 1rem;
-        padding-bottom: 0;
-        }
-        .intro_img_p{
-            width: 10rem;
-            border: double 3px transparent;
-        }
-        .i-1{
-        font-size: 28px;
-        line-height: 50px;
-        
-        }
-        .i-2{
-            font-size: 28px;
-            line-height: 50px;
-        }
-        .hireme{          
-            height: 1.5rem;
-            width: 5rem;
-            font-size: 10px;
-            font-weight: 200px;
-            border: solid 2px transparent;
-    }
-    .intro_btn{
-        width: 12rem;
-        margin-top: 10px;
-    }
-}
-@media  screen and (min-width: 451px) and (max-width: 520px){
-    .main_intro{
-        height: 40vh;
-    }
-    .intro_img{
-        padding-right: 1rem;
-        padding-bottom: 0;
-        
-        }
-        .intro_img_p{
-            width: 8rem;
-            border: double 3px transparent;
-        }
-        .i-1{
-        font-size: 24px;
-        line-height: 40px;
-        
-        }
-        .i-2{
-            font-size: 24px;
-            line-height: 40px;
-        }
-        .hireme{          
-            height: 1rem;
-            width: 4rem;
-            font-size: 8px;
-            font-weight: 150px;
-            border: solid 1.5px transparent;
-        }
-        .intro_btn{
-                width: 10rem;
-                margin-top: 10px;
-        }
-}
-@media  screen and (max-width: 450px){
-    .main_intro{
+        flex-direction: column-reverse;
         height: auto;
         margin-top: 100px;
     }
@@ -259,27 +203,38 @@ padding-bottom: 5rem;
         padding-bottom: 0;
         }
         .intro_img_p{
-            width: 7rem;
+            width: 17rem;
+            border-radius:100% ;
             border: double 1.8px transparent;
         }
+        .intro{
+            align-items: center;
+            padding: 30px 10PX;
+        }
         .i-1{
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
         
         }
         .i-2{
-            font-size: 20px;
-            line-height: 30px;
+            font-size: 30px;
+            line-height: 45px;
+            text-align: center;
         }
         .hireme{          
-            height: 0.8rem;
-            width: 3rem;
-            font-size: 6px;
+            height: 2rem;
+            width: 5rem;
+            font-size: 12px;
             font-weight: 150px;
             border: solid 1.5px transparent;
         }
         .intro_btn{
-                width: 7rem;
-                margin-top: 10px;
+                width: 11rem;
+                margin-top: 15px;
+        }
+        .social_icon{
+            margin: 10px;
+            width: 6rem;
         }
 }

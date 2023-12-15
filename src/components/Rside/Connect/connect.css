@@ -52,7 +52,7 @@
         
     }
     .qr{
-        width: 7rem;
+        width: 8rem;
         height: auto;
         margin-bottom: 60px;
     }
@@ -63,9 +63,9 @@
         
     }
     .f-prop{
-        margin: 5px 20px;
-        height: 1rem;
-        width: 8rem;
+        margin: 5px 0px;
+        height: 1.5rem;
+        width: 10rem;
     }
     .bgk{
         margin: 10px 30px;

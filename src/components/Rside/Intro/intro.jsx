@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./intro.css"
-import lalitimg from './lalitimage.png'
+import lalitimg from './lalit.jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -11,7 +11,7 @@ const Intro =() =>{
     
         if (windowWidth <= 576) {
           // Small devices
-          return 16;
+          return 24;
         } else if (windowWidth <= 992) {
           // Medium devices
           return 20;
@@ -39,10 +39,10 @@ const Intro =() =>{
     return(
         <div id ="hm" className="main_intro">
             <div className="intro">
-                <span className="i-1">Hi</span>  
-                <span className="i-1">My name is</span>  
+                <span className="i-1">Hey, I'm</span>  
+                <span className="i-1"></span>  
                 <span className="i-2">Lalit Chouhan</span>  
-                <span className="i-1">FullStack Developer</span>
+                <span className="i-1">Full Stack Developer</span>
                 <div className="intro_btn" >
                         <a className='hireme'href="mailto:lalit3chouhan@gmail.com.com">Hire Me !</a>
                         <a className='hireme'href="https://drive.google.com/file/d/1HxD6tVK18bIPzFwWy1CXFUzKQyfeSKrm/view?usp=sharing">View Resume</a>

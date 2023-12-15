@@ -34,7 +34,7 @@ return(
 <ProjectBox 
             img={eshop} 
             heading='Ecommerce Web App' 
-            des='Developed and deployed a modern e-commerce site using React. Implemented critical features like eShop Header, Home Page, Basket functionality, and Firebase authentication for a seamless user experience.'
+            des='Developed and deployed a modern e-commerce site using React. Implemented critical features like eShop Header, Basket functionality,and Firebase authentication'
             tech=' HTML, CSS, Javascript'
             link1 ={'https://url-shortner-cls3.onrender.com/'}
             link2={'https://github.com/Lalit9025/acm'}/>
