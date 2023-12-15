@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto:wght@400;700&display=swap');
+.main_intro{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+}
+.i-1{
+    color: #D9D9D9;
+font-family: Poppins;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 120.69% */
+}
+.i-2{
+    background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+.intro_btn{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.hireme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: #D9D9D9;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #d6b574, #f1315a, #56a9cc);
+  box-shadow: 2px 1000px 1px rgba(25, 25, 25, 1) inset;
+  cursor: pointer;
+  text-decoration: none;
+}
+.hireme:hover{
+    height: 3.2rem;
+    width: 9.3rem;
+    font-size: 18.5px;
+}
+.social_icon{
+    display: flex;
+    width: 8rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .social_icon{
+        width: 6rem;
+    }
+    
+}
+@media screen and (max-width:576px){
+    .social_icon{
+        width: 4rem;
+        padding-top: 15px;
+    }
+    
+}
+.intro_img{
+padding-right: 10rem;
+padding-bottom: 5rem;
+}
+.intro_img_p{
+    width: 20rem;
+  height: auto;
+  border: double 8px transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgba(231, 15, 170, 1),rgba(0, 192, 253, 1));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+@media  screen and (min-width: 1150px) and (max-width: 1350px){
+    .intro_img{
+        padding-right: 5rem;
+        }
+}
+@media  screen and (min-width: 950px) and (max-width: 1150px){
+    .intro_img{
+        padding-right: 2rem;
+        }
+        .intro_img_p{
+            width: 16rem;
+        }
+        .i-1{
+            font-size: 45px;
+            
+            }
+        .i-2{
+                font-size: 45px;
+            }
+        .hireme{          
+                height: 2rem;
+                width: 7rem;
+                font-size: small;
+                font-weight: 450px;
+                border: solid 2px transparent;
+        }
+        .intro_btn{
+            width: 16rem;
+            margin-top: 50px;
+        }
+    
+}
+@media  screen and (min-width: 730px) and (max-width: 950px){
+    .intro_img{
+        padding-right: 1rem;
+        }
+        .intro_img_p{
+            width: 13rem;
+            border: double 6px transparent;
+        }
+        .i-1{
+        font-size: 38px;
+        
+        }
+        .i-2{
+            font-size: 38px;
+        }
+        .hireme{          
+            height: 2rem;
+            width: 7rem;
+            font-size: small;
+            font-weight: 450px;
+            border: solid 2px transparent;
+    }
+    .intro_btn{
+        width: 16rem;
+        margin-top: 40px;
+    }
+}
+@media  screen and (min-width: 590px) and (max-width: 730px){
+    .main_intro{
+        height: auto;
+    }
+    .intro_img{
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        }
+        .intro_img_p{
+            width: 10rem;
+            border: double 4px transparent;
+        }
+        .i-1{
+        font-size: 32px;
+        line-height: 50px;
+        
+        }
+        .i-2{
+            font-size: 32px;
+            line-height: 50px;
+        }
+        .hireme{          
+            height: 1.5rem;
+            width: 6rem;
+            font-size: 12px;
+            font-weight: 300px;
+            border: solid 1.8px transparent;
+    }
+    .intro_btn{
+        width: 14rem;
+        margin-top: 20px;
+    }
+}
+@media  screen and (min-width: 520px) and (max-width: 590px){
+    .main_intro{
+        height: 60vh;
+    }
+    .intro_img{
+        padding-right: 1rem;
+        padding-bottom: 0;
+        }
+        .intro_img_p{
+            width: 10rem;
+            border: double 3px transparent;
+        }
+        .i-1{
+        font-size: 28px;
+        line-height: 50px;
+        
+        }
+        .i-2{
+            font-size: 28px;
+            line-height: 50px;
+        }
+        .hireme{          
+            height: 1.5rem;
+            width: 5rem;
+            font-size: 10px;
+            font-weight: 200px;
+            border: solid 2px transparent;
+    }
+    .intro_btn{
+        width: 12rem;
+        margin-top: 10px;
+    }
+}
+@media  screen and (min-width: 451px) and (max-width: 520px){
+    .main_intro{
+        height: 40vh;
+    }
+    .intro_img{
+        padding-right: 1rem;
+        padding-bottom: 0;
+        
+        }
+        .intro_img_p{
+            width: 8rem;
+            border: double 3px transparent;
+        }
+        .i-1{
+        font-size: 24px;
+        line-height: 40px;
+        
+        }
+        .i-2{
+            font-size: 24px;
+            line-height: 40px;
+        }
+        .hireme{          
+            height: 1rem;
+            width: 4rem;
+            font-size: 8px;
+            font-weight: 150px;
+            border: solid 1.5px transparent;
+        }
+        .intro_btn{
+                width: 10rem;
+                margin-top: 10px;
+        }
+}
+@media  screen and (max-width: 450px){
+    .main_intro{
+        height: auto;
+        margin-top: 100px;
+    }
+    .intro_img{
+        padding-right: 0rem;
+        padding-bottom: 0;
+        }
+        .intro_img_p{
+            width: 7rem;
+            border: double 1.8px transparent;
+        }
+        .i-1{
+        font-size: 20px;
+        line-height: 30px;
+        
+        }
+        .i-2{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .hireme{          
+            height: 0.8rem;
+            width: 3rem;
+            font-size: 6px;
+            font-weight: 150px;
+            border: solid 1.5px transparent;
+        }
+        .intro_btn{
+                width: 7rem;
+                margin-top: 10px;
+        }
+}

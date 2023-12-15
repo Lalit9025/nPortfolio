@@ -1,0 +1,18 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    
+}
+.project_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (min-width:0px) and (max-width:550px) {
+    .project_row{
+        flex-direction: column;
+    } 
+}
+
+
