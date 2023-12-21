@@ -149,7 +149,7 @@ margin-top: 10px;
 @media screen and  (max-width:550px){
     .pbox-body{
         width: 20rem;
-        height: 12rem;
+        height: 13rem;
         align-items: center;
         background-color: #363636; 
         margin: 20px 10px;
@@ -172,7 +172,7 @@ margin-top: 10px;
     .pr-tech{
         font-size: 15px;
     margin: 10px 0px;
-    line-height: 12px;
+    line-height: 20px;
     }
     .pbtn{
        
