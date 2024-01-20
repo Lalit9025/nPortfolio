@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/nPortfolio/static/css/main.9b499228.css",
-    "main.js": "/nPortfolio/static/js/main.6a9b1b3d.js",
+    "main.css": "/nPortfolio/static/css/main.541fc1e8.css",
+    "main.js": "/nPortfolio/static/js/main.a41b2e3a.js",
     "static/media/eshop.png": "/nPortfolio/static/media/eshop.15a9db5d53d4c6df96ba.png",
     "static/media/solo.png": "/nPortfolio/static/media/solo.74d32b1325c877b5c3a8.png",
+    "static/media/portfolio.png": "/nPortfolio/static/media/portfolio.112783550b544d8da56d.png",
     "static/media/lalit.jpg": "/nPortfolio/static/media/lalit.e6700e9f8418e192d704.jpg",
+    "static/media/writing-app.png": "/nPortfolio/static/media/writing-app.746827cafb107d27fdd4.png",
     "static/media/rolldice.png": "/nPortfolio/static/media/rolldice.bd92b50498c81a9b5934.png",
     "static/media/u1.png": "/nPortfolio/static/media/u1.edb7879e1bd552fbc72f.png",
     "static/media/qr.jpeg": "/nPortfolio/static/media/qr.21b132078823f76d42c1.jpeg",
     "index.html": "/nPortfolio/index.html",
-    "main.9b499228.css.map": "/nPortfolio/static/css/main.9b499228.css.map",
-    "main.6a9b1b3d.js.map": "/nPortfolio/static/js/main.6a9b1b3d.js.map"
+    "main.541fc1e8.css.map": "/nPortfolio/static/css/main.541fc1e8.css.map",
+    "main.a41b2e3a.js.map": "/nPortfolio/static/js/main.a41b2e3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b499228.css",
-    "static/js/main.6a9b1b3d.js"
+    "static/css/main.541fc1e8.css",
+    "static/js/main.a41b2e3a.js"
   ]
 }
