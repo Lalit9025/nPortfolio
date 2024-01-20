@@ -30,14 +30,12 @@ const Skills =()=>{
                    <SkillBox className="icon-pr" icon={html} name ={"HTML"} />
                    <SkillBox className="icon-pr" icon={css}  name ={"CSS"}/>
                    <SkillBox className="icon-pr" icon={js} name ={"Javascript"}/>
-                   </div>
-                   <div className="icons-arr">
                    <SkillBox className="icon-pr" icon={rect} name ={"ReactJs"}/>
                    <SkillBox className="icon-pr" icon={c} name ={"C++"}/>
                    <SkillBox className="icon-pr" icon={vs} name ={"Vs Code"}/>
                    </div>
-                </div>
             </div>
+        </div>
             
           
     

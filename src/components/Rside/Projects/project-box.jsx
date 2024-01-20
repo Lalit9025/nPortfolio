@@ -34,13 +34,13 @@ export const ProjectBox = (props) => {
   }, []);
 
   return (
-    <div className="pbox-body">
+    <div className={`pbox-body ${props.classs}`}>
       <div className="im">
-        <img className="pimg" src={props.img} alt={props.heading} />
+        <img className={props.class_img} src={props.img} alt={props.heading} />
       </div>
       <div className="des_bx">
         <div className="pr-heading">{props.heading}</div>
-        <div className="pr-des">{props.des}</div>
+        {/* <div className="pr-des">{props.des}</div> */}
         <div className="pr-tech">Tech Stack: {props.tech}</div>
         <div className="pbtn">
           <a className="pbtn-prop" href={props.link1} style={{textDecoration:'none'}}>
