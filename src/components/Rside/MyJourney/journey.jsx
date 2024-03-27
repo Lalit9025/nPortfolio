@@ -10,7 +10,7 @@ const Journey =()=>{
                   <span className="head_text">About Me</span>
                 </div>
 
-                <span className="para-text">In my first college year, curiosity led me to web development. Crafting web pages with HTML and CSS was a rewarding creative outlet. Venturing into JavaScript and advanced frameworks, I embraced React, shaping web development into both a hobby and a career aspiration, fueling my journey of continuous learning.</span>
+                <span className="para-text">In my college journey, I started with HTML and CSS, enjoying the creativity of web design. As I progressed, I delved into JavaScript and React, merging my passion with career aspirations. Expanding my horizons, I've mastered Node.js, Express, MongoDB, and C++, alongside UI frameworks like Ant Design, Material UI, and Bootstrap. Each new skill fuels my drive for continuous learning, shaping an ever-evolving journey in web development.</span>
             </div>  
             
             <div className="jj">

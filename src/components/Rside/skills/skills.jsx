@@ -14,7 +14,9 @@ import js from './js.png'
 import rect from './react.png'
 import c from './c++.png'
 import vs from './vs.png'
-
+import node from './icons8-nodejs-240.png'
+import express from './icons8-express-js-250.png'
+import mongodb from './icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png'
 
 const Skills =()=>{
     return (
@@ -31,6 +33,9 @@ const Skills =()=>{
                    <SkillBox className="icon-pr" icon={css}  name ={"CSS"}/>
                    <SkillBox className="icon-pr" icon={js} name ={"Javascript"}/>
                    <SkillBox className="icon-pr" icon={rect} name ={"ReactJs"}/>
+                   <SkillBox className="icon-pr" icon={node} name ={"NodeJs"}/>
+                   <SkillBox className="icon-pr" icon={express} name ={"ExpressJs"}/>
+                   <SkillBox className="icon-pr" icon={mongodb} name ={"NodeJs"}/>
                    <SkillBox className="icon-pr" icon={c} name ={"C++"}/>
                    <SkillBox className="icon-pr" icon={vs} name ={"Vs Code"}/>
                    </div>
