@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./intro.css"
-import lalitimg from './lalit.jpg'
+// import lalitimg from './lalit.jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import lalitimg from './WhatsApp Image 2024-03-06 at 15.01.25_7d5ec812.jpg'
 
 const Intro =() =>{
     const getIconSize = () => {
