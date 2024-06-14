@@ -58,16 +58,6 @@ return(
             link2={'https://github.com/Lalit9025/Roll-Dice'}
           />
 
-          {/* <ProjectBox 
-            img={url} 
-            classs={"normal"}
-            class_img ={"pimg_nor"}
-            heading='URL Shortner' 
-            tech=' HTML, CSS, Javascript, NodeJs, ExpressJS'
-            link1 ={'https://url-shortner-cls3.onrender.com/'}
-            link2={'https://github.com/Lalit9025/urlshortner'}
-          /> */}
-            
 
             <ProjectBox 
             img={jodi} 
@@ -79,15 +69,7 @@ return(
             link2={'https://github.com/Lalit9025/Jodi-web-app'}/>
 
 
-        {/* <ProjectBox 
-            img={eshop} 
-            classs={"reverse"}
-            class_img ={"pimg_rev"}
-            heading='Ecommerce Website' 
-            tech=' HTML, CSS, Javascript, ReactJs, Context-API'
-            link1 ={'https://eshop-fb048.web.app/'}
-            link2={'https://github.com/Lalit9025/eShop'}
-        /> */}
+        
           <ProjectBox 
             img={writingapp} 
             classs={"reverse"}

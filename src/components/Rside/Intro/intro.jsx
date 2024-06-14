@@ -5,6 +5,10 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import lalitimg from './WhatsApp Image 2024-03-06 at 15.01.25_7d5ec812.jpg'
+import { Opacity, Repeat } from "@mui/icons-material";
+import { animate } from "framer-motion";
+import {motion} from "framer-motion"
+import { duration } from "@mui/material";
 
 const Intro =() =>{
     const getIconSize = () => {
@@ -36,25 +40,51 @@ const Intro =() =>{
     };
   }, []);
 
+  const textVariants = {
+    initial:{
+      x: -500,
+      opacity:0,
+    },
+    animate: {
+      x:0,
+      opacity:1,
+      transition:{
+        duration: 1,
+        staggerChildren: 0.1
+      },
+    },
+    scrollButton: {
+      opacity:0,
+      y: 10,
+      transition:{
+        duration:2,
+        repeat: Infinity
+      }
+    }
+  }
+  
+  
+
    
     return(
         <div id ="hm" className="main_intro">
-            <div className="intro">
-                <span className="i-1">Hey, I'm</span>  
-                <span className="i-1"></span>  
-                <span className="i-2">Lalit Chouhan</span>  
-                <span className="i-1">Full Stack Developer</span>
-                <div className="intro_btn" >
-                        <a className='hireme'href="mailto:lalit3chouhan@gmail.com.com">Hire Me !</a>
-                        <a className='hireme'href="https://drive.google.com/file/d/1fMeEjtvpMx-plnX1k7Oo6Lo2uLZ-Pdvx/view?usp=sharing">View Resume</a>
-                </div>
-                <div className="social_icon">
-                  <a href="https://www.linkedin.com/in/lalit-chouhan-438b64228/"><FaLinkedin size={iconSize} color="#ccc"/></a>
-                  <a href="https://github.com/Lalit9025"><FaGithub size={iconSize} color="#ccc"/></a>
-                  <a href="https://www.instagram.com/laliit_07/"><FaInstagram size={iconSize} color="#ccc"/></a>
-                </div>
+            <motion.div className="intro" variants = {textVariants} initial="initial" animate="animate">
+                <motion.span  className="i-1" variants = {textVariants}>Hey, I'm</motion.span>  
+                <motion.span className="i-1" variants = {textVariants}></motion.span>  
+                <motion.span className="i-2" variants = {textVariants}>Lalit Chouhan</motion.span>  
+                <motion.span className="i-1" variants = {textVariants}>Full Stack Developer</motion.span>
+                <motion.div className="intro_btn" variants = {textVariants} >
+                        <motion.a className='hireme'href="mailto:lalit3chouhan@gmail.com.com" variants = {textVariants}>Hire Me !</motion.a>
+                        <motion.a className='hireme'href="https://drive.google.com/file/d/1fMeEjtvpMx-plnX1k7Oo6Lo2uLZ-Pdvx/view?usp=sharing" variants = {textVariants}>View Resume</motion.a>
+                </motion.div>
+                <motion.div className="social_icon" variants = {textVariants}>
+                  <motion.a href="https://www.linkedin.com/in/lalit-chouhan-438b64228/" variants = {textVariants}><FaLinkedin size={iconSize} color="#ccc"/></motion.a>
 
-            </div> 
+                  <motion.a href="https://github.com/Lalit9025" variants = {textVariants}><FaGithub size={iconSize} color="#ccc"/></motion.a>
+                  <motion.a href="https://www.instagram.com/laliit_07/" variants = {textVariants}><FaInstagram size={iconSize} color="#ccc"/></motion.a>
+                </motion.div>
+
+            </motion.div> 
             <div className="intro_img">
                 <img src={lalitimg} className="intro_img_p"/>
                 

@@ -1,6 +1,9 @@
 import "./project-box.css";
 import { FaLink, FaGithub } from "react-icons/fa";
 import { useState, useEffect } from "react";
+import {motion} from 'framer-motion'
+import { Hidden } from "@mui/material";
+
 
 export const ProjectBox = (props) => {
   const getIconSize = () => {
@@ -34,26 +37,20 @@ export const ProjectBox = (props) => {
   }, []);
 
   return (
-    <div className={`pbox-body ${props.classs}`}>
-      <div className="im">
-        <img className={props.class_img} src={props.img} alt={props.heading} />
-      </div>
-      <div className="des_bx">
-        <div className="pr-heading">{props.heading}</div>
-        {/* <div className="pr-des">{props.des}</div> */}
-        <div className="pr-tech">Tech Stack: {props.tech}</div>
-        <div className="pbtn">
-          <a className="pbtn-prop" href={props.link1} style={{textDecoration:'none'}}>
-            <FaLink className="pbtn_p_icon" size={iconSize} />
-            <p className="WG">Live Preview</p>
-          </a>
+    <div 
+     className={`pbox-body ${props.classs}`}
 
-          <a className="pbtn-prop" href={props.link2} style={{ textDecoration: 'none' }}>
-            <FaGithub className="pbtn_p_icon" size={iconSize} />
-            <p className="WG">View Code</p>
-          </a>
+    >
+        <div className="im"><img className={props.class_img} src={props.img} alt={props.heading} /></div>
+        <div className="des_bx">
+          <div className="pr-heading">{props.heading}</div>
+          <div className="pr-tech">Tech Stack: {props.tech}</div>
+          <div className="pbtn">
+            <a className="pbtn-prop" href={props.link1} style={{textDecoration:'none'}}><FaLink className="pbtn_p_icon" size={iconSize} /><p className="WG">Live Preview</p></a>
+            <a className="pbtn-prop" href={props.link2} style={{ textDecoration: 'none' }}><FaGithub className="pbtn_p_icon" size={iconSize} /><p className="WG">View Code</p>
+            </a>
+          </div>
         </div>
-      </div>
     </div>
   );
 };
