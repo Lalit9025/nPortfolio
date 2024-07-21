@@ -75,7 +75,7 @@ const Intro =() =>{
                 <motion.span className="i-1" variants = {textVariants}>Full Stack Developer</motion.span>
                 <motion.div className="intro_btn" variants = {textVariants} >
                         <motion.a className='hireme'href="mailto:lalit3chouhan@gmail.com.com" variants = {textVariants}>Hire Me !</motion.a>
-                        <motion.a className='hireme'href="https://drive.google.com/file/d/1fMeEjtvpMx-plnX1k7Oo6Lo2uLZ-Pdvx/view?usp=sharing" variants = {textVariants}>View Resume</motion.a>
+                        <motion.a className='hireme'href="https://drive.google.com/file/d/1i6Tl9ANYZIBek4IqyXrqw4hJfZd9soxv/view?usp=sharing" variants = {textVariants}>View Resume</motion.a>
                 </motion.div>
                 <motion.div className="social_icon" variants = {textVariants}>
                   <motion.a href="https://www.linkedin.com/in/lalit-chouhan-438b64228/" variants = {textVariants}><FaLinkedin size={iconSize} color="#ccc"/></motion.a>
@@ -88,7 +88,6 @@ const Intro =() =>{
             <div className="intro_img">
                 <img src={lalitimg} className="intro_img_p"/>
                 
-
             </div> 
          </div>       
     )
