@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nPortfolio/static/css/main.0d0328bc.css",
-    "main.js": "/nPortfolio/static/js/main.7298d516.js",
+    "main.css": "/nPortfolio/static/css/main.747e080b.css",
+    "main.js": "/nPortfolio/static/js/main.c9e34e3f.js",
     "static/media/foodyzone.png": "/nPortfolio/static/media/foodyzone.a9f51e1dbae59c01f9a2.png",
     "static/media/jodi-web-app.png": "/nPortfolio/static/media/jodi-web-app.165440d8b8d7d9357760.png",
     "static/media/eshop.png": "/nPortfolio/static/media/eshop.15a9db5d53d4c6df96ba.png",
@@ -15,11 +15,11 @@
     "static/media/qr.jpeg": "/nPortfolio/static/media/qr.21b132078823f76d42c1.jpeg",
     "static/media/newurlshortner.png": "/nPortfolio/static/media/newurlshortner.e15571fc67dec75327df.png",
     "index.html": "/nPortfolio/index.html",
-    "main.0d0328bc.css.map": "/nPortfolio/static/css/main.0d0328bc.css.map",
-    "main.7298d516.js.map": "/nPortfolio/static/js/main.7298d516.js.map"
+    "main.747e080b.css.map": "/nPortfolio/static/css/main.747e080b.css.map",
+    "main.c9e34e3f.js.map": "/nPortfolio/static/js/main.c9e34e3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d0328bc.css",
-    "static/js/main.7298d516.js"
+    "static/css/main.747e080b.css",
+    "static/js/main.c9e34e3f.js"
   ]
 }
