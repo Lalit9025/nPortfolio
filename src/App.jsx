@@ -5,7 +5,16 @@ import Journey from "./components/Rside/MyJourney/journey";
 import Projects from "./components/Rside/Projects/projects";
 import Skills from "./components/Rside/skills/skills";
 import Connect from "./components/Rside/Connect/connect";
+import ReactGA from 'react-ga4';
+import { useEffect } from "react";
+
+
 function App() {
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_MEASUREMENT_ID);
+    ReactGA.send('pageview');
+  }, []);
+
   return (
     <>
 
@@ -13,7 +22,6 @@ function App() {
            <div><Navbar/></div>
 
            <div className="m-body">
-           
             <div><Intro/></div>
             <div><Journey/></div>
             <div><Projects/></div>
