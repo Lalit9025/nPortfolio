@@ -4,7 +4,7 @@ import "./intro.css"
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import lalitimg from './WhatsApp Image 2024-03-06 at 15.01.25_7d5ec812.jpg'
+import lalitimg from './final.jpg'
 import { Opacity, Repeat } from "@mui/icons-material";
 import { animate } from "framer-motion";
 import {motion} from "framer-motion"
@@ -75,7 +75,7 @@ const Intro =() =>{
                 <motion.span className="i-1" variants = {textVariants}>Full Stack Developer</motion.span>
                 <motion.div className="intro_btn" variants = {textVariants} >
                         <motion.a className='hireme'href="mailto:lalit3chouhan@gmail.com.com" variants = {textVariants}>Hire Me !</motion.a>
-                        <motion.a className='hireme'href="https://drive.google.com/file/d/1i6Tl9ANYZIBek4IqyXrqw4hJfZd9soxv/view?usp=sharing" variants = {textVariants}>View Resume</motion.a>
+                        <motion.a className='hireme'href="https://drive.google.com/file/d/11HYVf_MewFv286UzsLAOoYEeKV742nEO/view?usp=sharing" variants = {textVariants}>View Resume</motion.a>
                 </motion.div>
                 <motion.div className="social_icon" variants = {textVariants}>
                   <motion.a href="https://www.linkedin.com/in/lalit-chouhan-438b64228/" variants = {textVariants}><FaLinkedin size={iconSize} color="#ccc"/></motion.a>
