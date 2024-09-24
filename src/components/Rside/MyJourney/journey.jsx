@@ -19,7 +19,7 @@ const Journey =()=>{
                   </div>
 
                   <Education 
-                    branchName={"Bachelor in Production and Industrial"}
+                    branchName={"B.Tech in Production and Industrial"}
                     school={"IIT Roorkee"}
                     duration={"Nov 2021 - Present"}
                   />
