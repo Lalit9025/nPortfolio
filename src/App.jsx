@@ -7,6 +7,7 @@ import Skills from "./components/Rside/skills/skills";
 import Connect from "./components/Rside/Connect/connect";
 import ReactGA from 'react-ga4';
 import { useEffect } from "react";
+import Workexp from "./components/Rside/Experience/Workexp";
 
 
 function App() {
@@ -16,21 +17,16 @@ function App() {
   }, []);
 
   return (
-    <>
-
-        
-           <div><Navbar/></div>
-
-           <div className="m-body">
+    <>     
+        <div><Navbar/></div>
+        <div className="m-body">
             <div><Intro/></div>
             <div><Journey/></div>
+            <div><Workexp/></div>
             <div><Projects/></div>
             <div><Skills/></div>
             <div><Connect/></div>
-           </div>
-        
-          
-    
+        </div>
     </>
   );
 }

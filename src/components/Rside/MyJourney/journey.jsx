@@ -10,7 +10,8 @@ const Journey =()=>{
                   <span className="head_text">About Me</span>
                 </div>
 
-                <span className="para-text">In my college journey, I started with HTML and CSS, enjoying the creativity of web design. As I progressed, I delved into JavaScript and React, merging my passion with career aspirations. Expanding my horizons, I've mastered Node.js, Express, MongoDB, and C++, alongside UI frameworks like Ant Design, Material UI, and Bootstrap. Each new skill fuels my drive for continuous learning, shaping an ever-evolving journey in web development.</span>
+                <span className="para-text">I’m Lalit Chouhan, a Full Stack Developer with experience in building scalable web and mobile applications. Currently pursuing B.Tech at IIT Roorkee, I’ve worked on impactful projects like an Android app for water efficiency at Sustainico and a travel forum backend at Madpackers. Skilled in TypeScript, React, Node.js, and AWS, I specialize in crafting secure, efficient, and user-friendly solutions. 
+                <br/>Let’s build something incredible together! 🚀</span>
             </div>  
             
             <div className="jj">
