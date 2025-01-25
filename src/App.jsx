@@ -8,7 +8,7 @@ import Connect from "./components/Rside/Connect/connect";
 import ReactGA from 'react-ga4';
 import { useEffect } from "react";
 import Workexp from "./components/Rside/Experience/Workexp";
-
+import Footer from "./components/Rside/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -26,6 +26,7 @@ function App() {
             <div><Projects/></div>
             <div><Skills/></div>
             <div><Connect/></div>
+            <div><Footer/></div>
         </div>
     </>
   );
