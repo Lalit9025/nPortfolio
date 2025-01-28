@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/nPortfolio/static/css/main.345aaed7.css",
-    "main.js": "/nPortfolio/static/js/main.10dc670e.js",
+    "main.css": "/nPortfolio/static/css/main.1769ea56.css",
+    "main.js": "/nPortfolio/static/js/main.d91cc8ce.js",
     "static/media/foodyzone.png": "/nPortfolio/static/media/foodyzone.a9f51e1dbae59c01f9a2.png",
     "static/media/jodi-web-app.png": "/nPortfolio/static/media/jodi-web-app.165440d8b8d7d9357760.png",
-    "static/media/eshop.png": "/nPortfolio/static/media/eshop.15a9db5d53d4c6df96ba.png",
-    "static/media/solo.png": "/nPortfolio/static/media/solo.74d32b1325c877b5c3a8.png",
     "static/media/portfolio.png": "/nPortfolio/static/media/portfolio.112783550b544d8da56d.png",
     "static/media/ecommerce.png": "/nPortfolio/static/media/ecommerce.40c357f2a2a2b105cfd6.png",
+    "static/media/imagegen.png": "/nPortfolio/static/media/imagegen.fdc5a3f7009473471d33.png",
     "static/media/final.jpg": "/nPortfolio/static/media/final.f107b42f9f279dfb3a0f.jpg",
     "static/media/writing-app.png": "/nPortfolio/static/media/writing-app.746827cafb107d27fdd4.png",
     "static/media/rolldice.png": "/nPortfolio/static/media/rolldice.bd92b50498c81a9b5934.png",
-    "static/media/u1.png": "/nPortfolio/static/media/u1.edb7879e1bd552fbc72f.png",
     "static/media/qr.jpeg": "/nPortfolio/static/media/qr.21b132078823f76d42c1.jpeg",
     "static/media/newurlshortner.png": "/nPortfolio/static/media/newurlshortner.e15571fc67dec75327df.png",
     "index.html": "/nPortfolio/index.html",
-    "main.345aaed7.css.map": "/nPortfolio/static/css/main.345aaed7.css.map",
-    "main.10dc670e.js.map": "/nPortfolio/static/js/main.10dc670e.js.map"
+    "main.1769ea56.css.map": "/nPortfolio/static/css/main.1769ea56.css.map",
+    "main.d91cc8ce.js.map": "/nPortfolio/static/js/main.d91cc8ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.345aaed7.css",
-    "static/js/main.10dc670e.js"
+    "static/css/main.1769ea56.css",
+    "static/js/main.d91cc8ce.js"
   ]
 }
