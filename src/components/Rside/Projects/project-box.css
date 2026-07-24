@@ -4,9 +4,17 @@
     height: 25rem;
     align-items: center;
     justify-content:flex-start;
-    background-color: #363636; 
+    background: linear-gradient(180deg, rgba(42,42,42,0.95), rgba(26,26,26,0.95));
     margin: 30px 10px;
-    border-radius: 10px;    
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 14px 36px rgba(0,0,0,0.26);
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.pbox-body:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 20px 42px rgba(0,0,0,0.4);
 }
 .normal{
     display: flex;
@@ -22,12 +30,14 @@
     height: 13rem;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    object-fit: cover;
 }
 .pimg_nor{
     width: 19rem;
     height: 13rem;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    object-fit: cover;
 }
 .des_bx{
     display: flex;
@@ -36,7 +46,7 @@
     font-family: Poppins;
 }
 .pr-heading{
-    color: var(--Solid-Heading-Dark-mode, #CCC);
+    color: #f0f0f0;
     text-align: center;
     font-family: Poppins;
     font-size: 20px;
@@ -45,20 +55,20 @@
     margin: 15px 0px;
 }
 .pr-des{
-    color: var(--Solid-Heading-Dark-mode, #CCC);
+    color: #d0d0d0;
 font-family: Poppins;
 font-size: 20px;
 font-style: normal;
-line-height: 26px; /* 144.444% */
+line-height: 26px;
 text-align:justify;
 }
 .pr-tech{
-    color: var(--Solid-Heading-Dark-mode, #CCC);
+    color: #b8b8b8;
 font-family: Poppins;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
-line-height: 26px; /* 162.5% */
+line-height: 26px;
 margin-top: 10px;
 }
 .pbtn{
@@ -78,6 +88,10 @@ margin-top: 10px;
     line-height: 26px;
     align-items: center;
     margin-bottom: 20px;
+    transition: color 0.2s ease;
+}
+.pbtn-prop:hover{
+    color: #13B0F5;
 }
 .pbtn_p_icon{  
     margin-right: 10px;
@@ -131,7 +145,7 @@ margin-top: 10px;
     .pr-des{
     font-size: 14px;
     font-style: normal;
-    line-height: 20px; /* 144.444% */
+    line-height: 20px;
     text-align:justify;
     }
     .pr-tech{
@@ -158,9 +172,9 @@ margin-top: 10px;
         width: 20rem;
         height: auto;
         align-items: center;
-        background-color: #363636; 
+        background: linear-gradient(180deg, rgba(42,42,42,0.95), rgba(26,26,26,0.95));
         margin: 20px 10px;
-        border-radius: 0px;    
+        border-radius: 14px;    
     }
     .pimg_rev{
         display: none;

@@ -64,7 +64,7 @@ const Connect = () => {
         <span className="head_text">Connect with me on Whatsapp</span>
       </div>
       <div className="cbox">
-        <img src={qr} className="qr" />
+        <img src={qr} className="qr" alt="WhatsApp QR code" />
         <div className="w_fill">
           <form action="submit" onSubmit={handleSubmit}>
             <div className="box-elem">

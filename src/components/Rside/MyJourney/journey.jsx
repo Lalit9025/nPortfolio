@@ -1,4 +1,3 @@
-import {GiJourney} from "react-icons/gi";
 import "./journey.css";
 import "../../top.css"
 import Education from "./Education";

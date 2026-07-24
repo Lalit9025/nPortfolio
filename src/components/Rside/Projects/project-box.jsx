@@ -1,12 +1,14 @@
 import "./project-box.css";
 import { FaLink, FaGithub } from "react-icons/fa";
 import { useState, useEffect } from "react";
-import {motion} from 'framer-motion'
-import { Hidden } from "@mui/material";
 
 
 export const ProjectBox = (props) => {
   const getIconSize = () => {
+    if (typeof window === "undefined") {
+      return 16;
+    }
+
     const windowWidth = window.innerWidth;
 
     if (windowWidth > 550 && windowWidth <= 576) {
@@ -22,17 +24,23 @@ export const ProjectBox = (props) => {
     }
   };
 
-  const [iconSize, setIconSize] = useState(getIconSize());
+  const [iconSize, setIconSize] = useState(16);
 
   useEffect(() => {
     const handleResize = () => {
       setIconSize(getIconSize());
     };
 
-    window.addEventListener("resize", handleResize);
+    setIconSize(getIconSize());
+
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", handleResize);
+    }
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", handleResize);
+      }
     };
   }, []);
 

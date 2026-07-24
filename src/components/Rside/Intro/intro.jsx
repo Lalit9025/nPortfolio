@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 import "./intro.css"
-// import lalitimg from './lalit.jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import lalitimg from './final.jpg'
-import { Opacity, Repeat } from "@mui/icons-material";
-import { animate } from "framer-motion";
-import {motion} from "framer-motion"
-import { duration } from "@mui/material";
+import { motion } from "framer-motion";
 
 const Intro =() =>{
     const getIconSize = () => {
+        if (typeof window === "undefined") {
+          return 28;
+        }
+
         const windowWidth = window.innerWidth;
     
         if (windowWidth <= 576) {
@@ -26,17 +26,23 @@ const Intro =() =>{
         }
       };
 
-    const [iconSize, setIconSize] = useState(getIconSize());
+    const [iconSize, setIconSize] = useState(28);
 
   useEffect(() => {
     const handleResize = () => {
       setIconSize(getIconSize());
     };
 
-    window.addEventListener("resize", handleResize);
+    setIconSize(getIconSize());
+
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", handleResize);
+    }
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", handleResize);
+      }
     };
   }, []);
 
@@ -86,7 +92,7 @@ const Intro =() =>{
 
             </motion.div> 
             <div className="intro_img">
-                <img src={lalitimg} className="intro_img_p"/>
+                <img src={lalitimg} className="intro_img_p" alt="Lalit Chouhan" />
                 
             </div> 
          </div>       
