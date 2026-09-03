@@ -126,8 +126,8 @@ const Contact: React.FC = () => {
               ========================================= */}
           <motion.div
             className="contact__info"
-            initial={{ opacity: 0, x: -50, filter: "blur(4px)" }}
-            whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
+            initial={{ opacity: 0, y: 40, filter: "blur(4px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true, amount: 0.18, margin: "0px 0px -40px 0px" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           >
@@ -248,8 +248,8 @@ const Contact: React.FC = () => {
             className="contact__form glass"
             onSubmit={handleSubmit}
             onMouseMove={handleMouseMove}
-            initial={{ opacity: 0, x: 50, filter: "blur(4px)" }}
-            whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
+            initial={{ opacity: 0, y: 40, filter: "blur(4px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true, amount: 0.18, margin: "0px 0px -40px 0px" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           >

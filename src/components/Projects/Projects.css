@@ -512,7 +512,44 @@
 
 /* Responsive */
 @media screen and (max-width: 800px) {
+  .projects {
+    padding: 70px 0 60px;
+  }
+
   .projects__grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projects__container {
+    padding: 0 16px;
+  }
+
+  .proj__filters {
+    gap: 6px;
+    margin-bottom: 30px;
+  }
+
+  .proj__filter-btn {
+    padding: 6px 12px;
+    font-size: 0.72rem;
+  }
+
+  .project-card {
+    padding: 20px 16px;
+  }
+
+  .project-card__title {
+    font-size: 1.12rem;
+  }
+
+  .proj-vis {
+    padding: 8px 10px;
+  }
+
+  .proj-vis__flow {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }

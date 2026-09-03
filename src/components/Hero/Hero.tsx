@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
               Hire Me
             </a>
             <a
-              href="./Lalit_Chouhan_Resume.pdf"
+              href={`${process.env.PUBLIC_URL}/sde_resume.pdf`}
               className="btn-outline"
               target="_blank"
               rel="noreferrer"

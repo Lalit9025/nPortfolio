@@ -496,6 +496,10 @@
 
 /* Responsive */
 @media screen and (max-width: 860px) {
+  .experience {
+    padding: 70px 0 60px;
+  }
+
   .exp__timeline-track,
   .exp__timeline-active-beam {
     left: 20px;
@@ -524,17 +528,52 @@
 }
 
 @media screen and (max-width: 480px) {
+  .experience__container {
+    padding: 0 16px;
+  }
+
+  .exp__timeline-track,
+  .exp__timeline-active-beam {
+    left: 12px;
+  }
+
+  .exp__dot {
+    left: 1px !important;
+  }
+
+  .exp__item {
+    padding-left: 32px !important;
+    margin-bottom: 36px;
+  }
+
   .exp__card {
-    padding: 22px 18px;
+    padding: 20px 16px;
   }
 
   .exp__card-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 8px;
   }
 
   .exp__card-badges {
     align-items: flex-start;
+  }
+
+  .exp__pipeline-flow {
+    padding: 8px 10px;
+  }
+
+  .exp__pipeline-track {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .exp__pipeline-step {
+    font-size: 0.6rem;
+    padding: 2px 5px;
+    white-space: nowrap;
   }
 }

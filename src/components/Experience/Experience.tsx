@@ -174,17 +174,13 @@ const Experience: React.FC = () => {
                   onMouseMove={handleMouseMove}
                   initial={{
                     opacity: 0,
-                    x: isLeft ? -90 : 90,
-                    y: 35,
-                    rotateY: isLeft ? 14 : -14,
-                    scale: 0.92,
-                    filter: "blur(6px)",
+                    y: 45,
+                    scale: 0.94,
+                    filter: "blur(5px)",
                   }}
                   whileInView={{
                     opacity: 1,
-                    x: 0,
                     y: 0,
-                    rotateY: 0,
                     scale: 1,
                     filter: "blur(0px)",
                   }}

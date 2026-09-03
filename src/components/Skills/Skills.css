@@ -308,13 +308,42 @@
 
 /* Responsive */
 @media screen and (max-width: 960px) {
+  .skills {
+    padding: 70px 0 60px;
+  }
+
   .skills__matrix-grid {
     grid-template-columns: 1fr;
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 480px) {
+  .skills__container {
+    padding: 0 16px;
+  }
+
   .domain-card {
-    padding: 22px 18px;
+    padding: 20px 16px;
+  }
+
+  .domain-card__title {
+    font-size: 1.1rem;
+  }
+
+  .domain-skill-chip {
+    padding: 5px 10px;
+  }
+
+  .domain-skill-name {
+    font-size: 0.78rem;
+  }
+
+  .domain-skill-context {
+    font-size: 0.58rem;
+  }
+
+  .marquee-chip {
+    padding: 5px 12px;
+    font-size: 0.7rem;
   }
 }
