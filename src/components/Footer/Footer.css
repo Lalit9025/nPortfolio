@@ -1,0 +1,135 @@
+/* ============================================
+   Footer — Gradient Border + Back to Top
+   ============================================ */
+
+.footer {
+  position: relative;
+  margin-top: 40px;
+}
+
+.footer__gradient-line {
+  height: 2px;
+  background: var(--gradient-primary);
+  opacity: 0.4;
+}
+
+.footer__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px clamp(1.5rem, 5vw, 2rem);
+}
+
+/* Top Row */
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer__brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer__logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.footer__tagline {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Social Links */
+.footer__socials {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: var(--transition-medium);
+}
+
+.footer__social-link:hover {
+  color: var(--text-primary);
+  border-color: var(--accent-violet);
+  background: rgba(139, 92, 246, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Back to Top */
+.footer__back-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  color: white;
+  cursor: pointer;
+  transition: var(--transition-medium);
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.footer__back-to-top:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(139, 92, 246, 0.45);
+}
+
+/* Divider */
+.footer__divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 20px;
+}
+
+/* Bottom Row */
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.footer__made-with {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.footer__heart {
+  display: inline-block;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .footer__top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
